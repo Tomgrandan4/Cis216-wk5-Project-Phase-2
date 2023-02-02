@@ -12,10 +12,6 @@ def GetDatesWorked():
     #write the code to input fromdate and todate and return the values from the function.  
     #Prompt the user for the dates in the following format: mm/dd/yyyy
     #no validations are needed for this input, we will assume the dates are entered correctly
-        # fromdate,today something similar to (return grosspay, incometax, netpay)
-        # dont forget a return for the function
-
-
 def GetHoursWorked():
     hours = float(input('Enter amount of hours worked:  '))
     return hours
